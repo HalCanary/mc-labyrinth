@@ -3,6 +3,10 @@ MC-Labyrinth
 
 *a 3D Minecraft maze generator.*
 
+![a room with up and down passages](http://i.imgur.com/dfQ5iYX.png)
+
+![a dark corridor](http://i.imgur.com/ABAqCRN.png)
+
 I used a maze-generation algorithm to generate a maze with rooms
 arranged in a 8x8x8 grid.  The algorithm is tuned to prefer connecting
 rooms horizontally rather than verically.  Between any two rooms in
