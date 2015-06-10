@@ -5,9 +5,18 @@ MC-Labyrinth
 
 **Contributions welcome and encouraged!**
 
+Contents:
+
+-   [Requirements](#requirements)
+-   [The Labyrinth](#the_labyrinth)
+-   [Try it](#try_it)
+-   [Help!](#help)
+
 ![a room with up and down passages](http://i.imgur.com/dfQ5iYX.png)
 
 ![a dark corridor](http://i.imgur.com/ABAqCRN.png)
+
+<span id="requirements"></span>
 
 Requirements
 ------------
@@ -16,6 +25,8 @@ Requirements
 *   Python
 *   Gnu Screen or some other way to pipe thousands of commands into the
     running server.
+
+<span id="the_labyrinth"></span>
 
 The Labyrinth
 -------------
@@ -31,6 +42,8 @@ levels, you'll find better loot in the chests.
 
 You can't cheat in this maze by knocking down the walls, since they
 are all reinforced with bedrock. 
+
+<span id="try_it"></span>
 
 Try it!
 -------
@@ -81,3 +94,20 @@ my Linux server (Let's try this out first on a new world first):
 7.  The server can be stopped at any time by executing:
 
         screen -S minecraft -X stuff "\003"
+
+<span id="help"></span>
+
+Help!
+-----
+
+Dear Mojang,
+
+Can we make this sort of workflow easier?  Ideas:
+
+1.  A sever command `/executeprogram` that lets me execute any program
+    from the console; that programs's output would be console input.
+
+2.  A more complex API that also allows an external program to query
+    the server ("What kind of block is located at X,Y,Z? Where is
+    entity E? List the players within radius R of point X,Y,Z?")
+    Maybe even use a database-style API?
