@@ -3,6 +3,8 @@ MC-Labyrinth
 
 *a 3D Minecraft maze generator.*
 
+**Contributions welcome and encouraged!**
+
 ![a room with up and down passages](http://i.imgur.com/dfQ5iYX.png)
 
 ![a dark corridor](http://i.imgur.com/ABAqCRN.png)
@@ -71,7 +73,7 @@ my Linux server (Let's try this out first on a new world first):
 5.  Log into this server with the Minecraft client. (This will force
     the server to load of chunk).
 
-6.  Execute the labyrinth program and pipe tyhe output into the
+6.  Execute the labyrinth program and pipe the output into the
     Minecraft server:
 
         "$LABYRINTH_DIR/labyrinth.py" | "$LABYRINTH_DIR/talk.py"
