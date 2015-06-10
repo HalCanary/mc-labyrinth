@@ -7,6 +7,17 @@ MC-Labyrinth
 
 ![a dark corridor](http://i.imgur.com/ABAqCRN.png)
 
+Requirements
+------------
+
+*   Minecraft & the Minecraft server
+*   Python
+*   Gnu Screen or some other way to pipe thousands of commands into the
+    running server.
+
+The Labyrinth
+-------------
+
 I used a maze-generation algorithm to generate a maze with rooms
 arranged in a 8x8x8 grid.  The algorithm is tuned to prefer connecting
 rooms horizontally rather than verically.  Between any two rooms in
@@ -18,6 +29,9 @@ levels, you'll find better loot in the chests.
 
 You can't cheat in this maze by knocking down the walls, since they
 are all reinforced with bedrock. 
+
+Try it!
+-------
 
 To try this out, you'll have to have some way to enter over ten
 thousand commands to your minecraft server.  Here's how I do this on
